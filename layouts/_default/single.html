@@ -1,5 +1,15 @@
 {{ define "main" }}
     <h1 style="color: {{ .Params.color}}">This is a single template</h1>
+
+    {{ truncate 10 "This is a really long string"}}
+    <br>
+    {{ add 1 5}}
+    <br>
+    {{ sub 5 10}}
+    <br>
+    {{ singularize "dogs"}}
+
+
     {{ .Content}}
     <br>
     {{ .Params.myVar}}
