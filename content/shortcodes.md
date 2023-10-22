@@ -6,6 +6,7 @@ author: "Steve Ball"
 tags: ["hugo", "Tutorial", "External"]
 categories: ["addtions", "web"]
 moods: ["sad", "tired"]
+color: "red"
 ---
 ## Shortcode for YouTube video
 {{<youtube 2xkNJL4gJ9E>}}
